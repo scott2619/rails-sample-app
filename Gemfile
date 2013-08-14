@@ -8,6 +8,7 @@ gem 'rails', '3.2.13'
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
+      gem 'guard-rspec'
 end
 
 
@@ -27,6 +28,9 @@ gem 'jquery-rails'
 
 group :test do
 	gem 'capybara', '1.1.2'
+      gem 'rb-fchange'
+      gem 'rb-notifu'
+      gem 'win32console'
 end
 
 # To use ActiveModel has_secure_password
